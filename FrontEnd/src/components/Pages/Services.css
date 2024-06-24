@@ -1,0 +1,9 @@
+.background{
+    background-color: rgb(255, 255, 255);
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom:20px;
+}

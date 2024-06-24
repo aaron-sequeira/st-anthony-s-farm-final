@@ -1,0 +1,51 @@
+.BodyDataDesign{
+    display: flex;
+}
+
+.BodyData{
+  font-size: 30px;
+}
+
+.BodyDataDesign img{
+    flex-direction:column;
+    margin-right:20px;
+    border-radius:25px;
+    margin-left: 15px
+}
+
+.SourceD{
+    font-size: 25px;
+    color: gray
+}
+
+.SellingPointD{
+    font-size: 25px;
+    color: green
+}
+
+.ButtonD{
+    background-color: #41EC25;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    margin-top: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ButtonD:hover{
+    transition: all 0.5s ease-out;
+    background-color: rgb(14, 220, 34);
+}
+
+@media screen and (max-width: 900px){
+    .BodyDataDesign img{
+      width: calc(100% / 2);;
+    }
+  }
+  
+  @media screen and (max-width: 550px){
+    .BodyDataDesign img{
+      width: 100%;
+    }
+  }
